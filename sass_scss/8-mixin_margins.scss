@@ -1,8 +1,8 @@
 /*Mixin margins*/
 
 @mixin margin($left, $right){
-    left: $left;
-    right: $right;
+    margin-left: $left;
+    margin-right: $right;
 }
 
 body{
