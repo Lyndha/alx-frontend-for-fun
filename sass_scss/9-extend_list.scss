@@ -1,12 +1,19 @@
 /*extend lists*/
 
-.info{
+%font{
     font-size: 12px;
+}
 
-    &.success{
-        color: #00ff00;
-    }
-    &.warning{
-        color: #ff0000;
-    }
+.info{
+    @extend %font;
+}
+
+.success{
+    @extend %font;
+    color: #00ff00;
+}
+
+.warning{
+    @extend %font;
+    color: #ff0000;
 }
