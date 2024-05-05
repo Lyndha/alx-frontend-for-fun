@@ -1,9 +1,9 @@
 /*Color variable*/
-html{
+$color: #3d3d3d
     body{
-        color: #3D3D3D;
+        color: @color;
     }
+
     p{
-        color: #3D3d3d;
+        color: @color;
     }
-}
